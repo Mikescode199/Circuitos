@@ -15,7 +15,7 @@ def suma_resistencias(tipo):
     for i in range(ingresa_resistencias):
         circuito.__add__(int(input("Ingresa resistencia: ")))
     print(circuito.__RT__())
-
+    
 
 tipo_circuito = int(input(""" Ingresa el tipo de Circuito 1. Paralelo, 2.Serie """))
 suma_resistencias(tipo_circuito)
